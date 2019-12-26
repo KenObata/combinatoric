@@ -5,9 +5,10 @@
 # to calculate number of onto function.
 # input = m , n where m is number of distinct object to distribute
 # n is number of distinct boxes(containers) to sotre m objects.
-# This program is onto function, so no box is left empty.
+# This program returns stirling number's second kind,
+# so no box is left empty.
 # and all m object is distributed.
-# In short, "order matters, and repeatition is allowed."
+# In short, "order does not matter, and repeatition is allowed."
 
 
 from fractions import Fraction
